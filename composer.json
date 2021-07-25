@@ -1,0 +1,12 @@
+{
+    "name": "louis/how-to-dev",
+    "authors": [
+        {
+            "name": "chapristi",
+            "email": "70172942+chapristi@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpunit/php-timer": "^5.0"
+    }
+}
