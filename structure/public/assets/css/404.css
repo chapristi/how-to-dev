@@ -1,0 +1,142 @@
+/* colors patern #E7ECEF #274C77 #6096BA #A3CEF1 #8B8C89 */
+:root {
+    --colorA: #E7ECEF;
+    --colorB: #274C77;
+    --colorC: #6096BA;
+    --colorD: #A3CEF1;
+    --colorE: #8B8C89;
+    --colorGreen: #2a7727;}
+* {padding: 0; margin: 0;}
+body{background-color: var(--colorA);}
+.errorPageText{color: var(-0);}
+.imageNotFound {
+    width: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+    /* patern css for border */
+
+
+/* colors patern #E7ECEF #274C77 #6096BA #A3CEF1 #8B8C89 */
+
+:root {
+    --colorA: #E7ECEF;
+    --colorB: #274C77;
+    --colorC: #6096BA;
+    --colorD: #A3CEF1;
+    --colorE: #8B8C89;
+    --colorGreen: #2a7727;
+}
+
+/* ============================  PRESET  ============================ */
+
+
+
+/* ============================  PRESET  ============================ */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: lato,sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: var(--colorA);
+}
+
+.topBar {
+    background-color: var(--colorB);
+    width: 100%;
+    height: 5rem;
+}
+
+.button-aligne {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.2rem;
+}
+
+.button-style {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: var(--colorA);
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    border: 3px solid var(--colorA);
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.button-style:hover {
+    color: var(--colorGreen);
+    border: 3px solid var(--colorGreen);
+}
+
+.NamePage {
+    font-size: 6vh;
+    text-align: center;
+    margin: 20px;
+    color: var(--colorB);
+}
+/* === === === === === === ==== ====  === === === === === === === */
+/* === === === === === === setup separate === === === === === === */
+/* === === === === === === ==== ====  === === === === === === === */
+
+
+.separate {
+    width: 70%;
+    height: 1vh;
+    background-color: var(--colorE);
+    border-radius: 30px;
+    display: flex;
+    margin: 50px auto 50px auto;
+}
+
+
+/* === === === === === === ==== ==== === === === === === === === */
+/* === === === === === === setup gridbox === === === === === === */
+/* === === === === === === ==== ==== === === === === === === === */
+
+.GridPreset {
+    display: grid;
+    grid-template-columns: repeat(10, 10fr);
+}
+
+.Content {
+    width: 24rem;
+    height: 20rem;
+    background-color: var(--colorC);
+    grid-column: 2;
+    grid-row: 4;
+    border-radius: 10px 10px 0 0;
+}
+
+.ImageExemple {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+    border-radius: 8px;
+}
+
+.Description {
+    text-align: center;
+    background-color: var(--colorD);
+    border-radius: 0 0 10px 10px;
+    height: 6rem;
+}
+
+.NameContent {
+    font-size: 4vh;
+    margin-top: 1rem;
+}
+
+.DescritpionContent {
+    font-style: italic;
+
+}

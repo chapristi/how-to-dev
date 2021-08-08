@@ -6,7 +6,18 @@
             "email": "70172942+chapristi@users.noreply.github.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/"
+        }
+    }, 
     "require": {
-        "phpunit/php-timer": "^5.0"
+        "phpunit/php-timer": "^5.0",
+        "altorouter/altorouter": "^2.0",
+      "ext-pdo": "*",
+      "ext-curl": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
     }
 }
